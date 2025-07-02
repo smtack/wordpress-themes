@@ -1,0 +1,370 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Serif 4', serif;
+}
+
+body {
+	background-color: #000000;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+}
+
+p {
+	line-height: 1.5;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	list-style: none;
+}
+
+.header {
+	margin: 0 auto;
+	border-bottom: 1px solid #ffffff;
+	overflow: hidden;
+}
+
+.info {
+	float: left;
+	padding: 50px 0;
+}
+
+.heading {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.description {
+	font-size: 18px;
+	font-style: italic;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+.nav {
+	float: right;
+	padding: 50px 0;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.nav ul li a {
+	font-weight: bold;
+}
+
+.posts,
+.page {
+	margin: 50px auto;
+}
+
+.post {
+	width: 100%;
+	margin: 25px 0 50px 0;
+}
+
+.title {
+	font-size: 28px;
+}
+
+.post h1 {
+	color: #ffffff;
+}
+
+.post h2 {
+	margin-bottom: 10px;
+}
+
+.post h4 {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 0;
+}
+
+.post img {
+	width: 100%;
+	height: 100%;
+	margin: 25px 0;
+}
+
+.post p {
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.post-navigation {
+	margin-top: 50px;
+}
+
+.nav-previous {
+	margin-bottom: 10px;
+	float: left;
+}
+
+.nav-next {
+	float: right;
+}
+
+.comments-link {
+	color: #ffffff;
+}
+
+.comments {
+	clear: both;
+	margin: 50px 0;
+	color: #ffffff;
+	text-decoration: none;
+	border-top: 1px solid #ffffff;
+}
+
+#prev,
+#next {
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+#prev {
+	float: left;
+}
+
+#next {
+	float: right;
+}
+
+.comments-title {
+	color: #ffffff;
+	padding: 10px 0;
+}
+
+.comments-list {
+	list-style: none;
+}
+
+.comments-list li {
+	margin: 25px 0;
+}
+
+.comments-list p {
+	color: #ffffff;
+	margin: 25px 0;
+	display: block;
+}
+
+.comment-body {
+	margin: 50px 0;
+}
+
+.avatar {
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.comment-author {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.comment-author a,
+.comment-meta a {
+	color: #ffffff;
+}
+
+.reply a {
+	margin: 10px 0;
+}
+
+.children {
+	margin-left: 25px;
+}
+
+#respond {
+	display: block;
+	margin-top: 50px;
+	border-top: 1px solid #ffffff;
+}
+
+#respond h3 {
+	color: #ffffff;
+	padding: 25px 0;
+}
+
+.comment-notes {
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+#cancel-comment-reply-link {
+	font-weight: 400;
+}
+
+.comment-form a {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.comment-form label {
+	color: #ffffff;
+	display: block;
+}
+
+.comment-form textarea {
+	width: 100%;
+	height: 200px;
+	font-size: 16px;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #ffffff;
+	resize: none;
+	display: block;
+	box-sizing: border-box;
+}
+
+.comment-form textarea:focus {
+	outline: none;
+	border: 1px solid #000000;
+}
+
+.comment-form input[type='text'] {
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+	margin: 10px 0;
+	border: 1px solid #ffffff;
+	display: block;
+	box-sizing: border-box;
+}
+
+.comment-form input[type='text']:focus {
+	outline: none;
+	border: 1px solid #000000;
+}
+
+#submit {
+	height: 50px;
+	padding: 0 10px;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+#submit:hover {
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+}
+
+#submit:active, #submit:focus {
+	outline: none;
+}
+
+.footer {
+	clear: both;
+	border-top: 1px solid #ffffff;
+}
+
+.search {
+	text-align: center;
+}
+
+.search-form {
+	margin: 25px 0;
+}
+
+.search-field {
+	height: 40px;
+	width: 250px;
+	border: 1px solid #ffffff;
+	padding: 10px;
+}
+
+.search-field:focus {
+	border: 1px solid #000000;
+	outline: none;
+}
+
+.search-submit {
+	height: 40px;
+	padding: 0 10px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #ffffff;
+}
+
+.search-submit:hover {
+	cursor: pointer;
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+}
+
+.archive {
+	text-align: center;
+}
+
+.archive h4 {
+	margin: 10px 0;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.archive ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.footer p {
+	color: #ffffff;
+	font-size: 12px;
+	text-align: center;
+	padding: 25px 0;
+}
+
+@media (max-width: 1300px) {
+	.container {
+		width: 70%;
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 80%;
+	}
+
+	.posts,
+	.page {
+		width: 100%;
+	}
+
+	.info {
+		float: none;
+	}
+
+	.nav {
+		float: none;
+		padding: 0;
+	}
+
+	.nav ul li {
+		display: block;
+		margin: 25px auto;
+	}
+}
