@@ -1,11 +1,14 @@
 <?php
-	function newspaper_enqueue() {
-		wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
-	}
+function blog_enqueue() {
+	wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+}
 
-	add_action('wp_enqueue_scripts', 'newspaper_enqueue');
+function add_google_fonts() {
+	wp_enqueue_style('add_google_fonts', 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap', false);
+}
 
-	add_theme_support('title-tag');
+add_action('wp_enqueue_scripts', 'blog_enqueue');
+add_action('wp_enqueue_scripts', 'add_google_fonts');
 
-	add_theme_support('post-thumbnails');
-?>
+add_theme_support('title-tag');
+add_theme_support('post-thumbnails');
